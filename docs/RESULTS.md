@@ -104,6 +104,6 @@ The six hand-designed toy functions favor transparent distance guidance and do n
 | triple_gate:d3:T | 19 | 12 |
 | triple_gate:d3:F | 20 | 17 |
 
-GA missed `product_guard:d3:T` in 10 runs and `triple_gate:d3:F` in one. Random Search missed product equality in 16 runs, threshold equality in one, and triple D3 outcomes in multiple runs (table above). A covered outcome can have been discovered incidentally in another allocation: targeted success and final archive discovery are recorded separately in `results/target_discovery.json`. No missing outcome is inferred from a distance estimate.
+GA missed `product_guard:d3:T` in 10 runs and `triple_gate:d3:T` in one. Random Search missed product equality in 16 runs, threshold equality in one, and triple D3 outcomes in multiple runs (table above). A covered outcome can have been discovered incidentally in another allocation: targeted success and final archive discovery are recorded separately in `results/target_discovery.json`. No missing outcome is inferred from a distance estimate.
 
 The fixed function-by-function target schedule dominates the staircase shape and AUC scale. AUC is a within-protocol descriptive metric, not a schedule-independent search-efficiency claim. GA used more duplicate inputs and more mean time; its higher mean final coverage does not imply that it wins each seed or is universally preferable.
