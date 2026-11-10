@@ -1,0 +1,13 @@
+{
+  "methods": ["ga", "random"],
+  "base_seeds": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+  "evaluations_per_target": 60,
+  "population_size": 12,
+  "planned_search_calls": 86400,
+  "optimizer_seed": "base_seed * 1000 + target_index",
+  "target_order": "fixture table order; d1,d2,d3; T then F",
+  "normalized_auc": "sum(covered_count_at_evaluation_t, t=1..2160)/(36*2160)",
+  "duplicate_scope": "(fixture, integer tuple) within one method/base-seed run",
+  "early_stop": false,
+  "ablation": "none; no causal claim about individual guidance mechanisms"
+}

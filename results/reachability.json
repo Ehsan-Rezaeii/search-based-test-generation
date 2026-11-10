@@ -1,0 +1,202 @@
+{
+  "covered": [
+    "distance_gate:d1:F",
+    "distance_gate:d1:T",
+    "distance_gate:d2:F",
+    "distance_gate:d2:T",
+    "distance_gate:d3:F",
+    "distance_gate:d3:T",
+    "modulo_guard:d1:F",
+    "modulo_guard:d1:T",
+    "modulo_guard:d2:F",
+    "modulo_guard:d2:T",
+    "modulo_guard:d3:F",
+    "modulo_guard:d3:T",
+    "product_guard:d1:F",
+    "product_guard:d1:T",
+    "product_guard:d2:F",
+    "product_guard:d2:T",
+    "product_guard:d3:F",
+    "product_guard:d3:T",
+    "sign_balance:d1:F",
+    "sign_balance:d1:T",
+    "sign_balance:d2:F",
+    "sign_balance:d2:T",
+    "sign_balance:d3:F",
+    "sign_balance:d3:T",
+    "threshold_gate:d1:F",
+    "threshold_gate:d1:T",
+    "threshold_gate:d2:F",
+    "threshold_gate:d2:T",
+    "threshold_gate:d3:F",
+    "threshold_gate:d3:T",
+    "triple_gate:d1:F",
+    "triple_gate:d1:T",
+    "triple_gate:d2:F",
+    "triple_gate:d2:T",
+    "triple_gate:d3:F",
+    "triple_gate:d3:T"
+  ],
+  "fixture_calls": 77326,
+  "per_fixture_calls": {
+    "distance_gate": 1681,
+    "modulo_guard": 1681,
+    "product_guard": 1681,
+    "sign_balance": 1681,
+    "threshold_gate": 1681,
+    "triple_gate": 68921
+  },
+  "stage": "offline exhaustive feasibility; excluded from search",
+  "witnesses_validation_only": {
+    "distance_gate:d1:F": [
+      -20,
+      -20
+    ],
+    "distance_gate:d1:T": [
+      -20,
+      -9
+    ],
+    "distance_gate:d2:F": [
+      -20,
+      20
+    ],
+    "distance_gate:d2:T": [
+      -20,
+      -9
+    ],
+    "distance_gate:d3:F": [
+      -20,
+      -9
+    ],
+    "distance_gate:d3:T": [
+      -9,
+      -20
+    ],
+    "modulo_guard:d1:F": [
+      -19,
+      -20
+    ],
+    "modulo_guard:d1:T": [
+      -20,
+      -20
+    ],
+    "modulo_guard:d2:F": [
+      -20,
+      -18
+    ],
+    "modulo_guard:d2:T": [
+      -20,
+      -20
+    ],
+    "modulo_guard:d3:F": [
+      -20,
+      -20
+    ],
+    "modulo_guard:d3:T": [
+      -20,
+      -17
+    ],
+    "product_guard:d1:F": [
+      -20,
+      -20
+    ],
+    "product_guard:d1:T": [
+      0,
+      -20
+    ],
+    "product_guard:d2:F": [
+      0,
+      -20
+    ],
+    "product_guard:d2:T": [
+      0,
+      1
+    ],
+    "product_guard:d3:F": [
+      0,
+      1
+    ],
+    "product_guard:d3:T": [
+      11,
+      13
+    ],
+    "sign_balance:d1:F": [
+      0,
+      -20
+    ],
+    "sign_balance:d1:T": [
+      -20,
+      -20
+    ],
+    "sign_balance:d2:F": [
+      -20,
+      -20
+    ],
+    "sign_balance:d2:T": [
+      -20,
+      0
+    ],
+    "sign_balance:d3:F": [
+      -20,
+      0
+    ],
+    "sign_balance:d3:T": [
+      -20,
+      20
+    ],
+    "threshold_gate:d1:F": [
+      -20,
+      -20
+    ],
+    "threshold_gate:d1:T": [
+      8,
+      -20
+    ],
+    "threshold_gate:d2:F": [
+      8,
+      -2
+    ],
+    "threshold_gate:d2:T": [
+      8,
+      -20
+    ],
+    "threshold_gate:d3:F": [
+      8,
+      -20
+    ],
+    "threshold_gate:d3:T": [
+      12,
+      -3
+    ],
+    "triple_gate:d1:F": [
+      -20,
+      -20,
+      -20
+    ],
+    "triple_gate:d1:T": [
+      -14,
+      20,
+      -20
+    ],
+    "triple_gate:d2:F": [
+      -14,
+      20,
+      -20
+    ],
+    "triple_gate:d2:T": [
+      -14,
+      20,
+      -11
+    ],
+    "triple_gate:d3:F": [
+      -14,
+      20,
+      -11
+    ],
+    "triple_gate:d3:T": [
+      2,
+      4,
+      5
+    ]
+  }
+}
