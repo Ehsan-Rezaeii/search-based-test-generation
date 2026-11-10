@@ -1,0 +1,876 @@
+[
+  {
+    "duplicate": false,
+    "evaluation": 7,
+    "fitness": 0.0,
+    "fixture": "threshold_gate",
+    "inputs": [
+      17,
+      -3
+    ],
+    "optimizer_seed": 13000,
+    "output": 2,
+    "target": "threshold_gate:d1:T",
+    "target_index": 0,
+    "trace": [
+      {
+        "decision": "threshold_gate:d1",
+        "distance_false": 10,
+        "distance_true": 0,
+        "lhs": 17,
+        "op": ">",
+        "outcome": true,
+        "rhs": 7
+      },
+      {
+        "decision": "threshold_gate:d2",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": -3,
+        "op": "<=",
+        "outcome": true,
+        "rhs": -3
+      },
+      {
+        "decision": "threshold_gate:d3",
+        "distance_false": 0,
+        "distance_true": 5,
+        "lhs": 14,
+        "op": "==",
+        "outcome": false,
+        "rhs": 9
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 361,
+    "fitness": 0.0,
+    "fixture": "sign_balance",
+    "inputs": [
+      -17,
+      0
+    ],
+    "optimizer_seed": 13006,
+    "output": 2,
+    "target": "sign_balance:d1:T",
+    "target_index": 6,
+    "trace": [
+      {
+        "decision": "sign_balance:d1",
+        "distance_false": 17,
+        "distance_true": 0,
+        "lhs": -17,
+        "op": "<",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "sign_balance:d2",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 0,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "sign_balance:d3",
+        "distance_false": 0,
+        "distance_true": 17,
+        "lhs": -17,
+        "op": "==",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 730,
+    "fitness": 0.0,
+    "fixture": "modulo_guard",
+    "inputs": [
+      0,
+      -7
+    ],
+    "optimizer_seed": 13012,
+    "output": 2,
+    "target": "modulo_guard:d1:T",
+    "target_index": 12,
+    "trace": [
+      {
+        "decision": "modulo_guard:d1",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 0,
+        "op": "==",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "modulo_guard:d2",
+        "distance_false": 2,
+        "distance_true": 0,
+        "lhs": 2,
+        "op": "!=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "modulo_guard:d3",
+        "distance_false": 0,
+        "distance_true": 9,
+        "lhs": 7,
+        "op": "<=",
+        "outcome": false,
+        "rhs": -2
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1087,
+    "fitness": 0.0,
+    "fixture": "distance_gate",
+    "inputs": [
+      -3,
+      -17
+    ],
+    "optimizer_seed": 13018,
+    "output": 3,
+    "target": "distance_gate:d1:T",
+    "target_index": 18,
+    "trace": [
+      {
+        "decision": "distance_gate:d1",
+        "distance_false": 4,
+        "distance_true": 0,
+        "lhs": 14,
+        "op": ">",
+        "outcome": true,
+        "rhs": 10
+      },
+      {
+        "decision": "distance_gate:d2",
+        "distance_false": 20,
+        "distance_true": 0,
+        "lhs": -20,
+        "op": "<",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "distance_gate:d3",
+        "distance_false": 11,
+        "distance_true": 0,
+        "lhs": 14,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 4
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1445,
+    "fitness": 0.0,
+    "fixture": "product_guard",
+    "inputs": [
+      18,
+      4
+    ],
+    "optimizer_seed": 13024,
+    "output": 2,
+    "target": "product_guard:d1:T",
+    "target_index": 24,
+    "trace": [
+      {
+        "decision": "product_guard:d1",
+        "distance_false": 19,
+        "distance_true": 0,
+        "lhs": 18,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "product_guard:d2",
+        "distance_false": 4,
+        "distance_true": 0,
+        "lhs": 4,
+        "op": ">",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "product_guard:d3",
+        "distance_false": 0,
+        "distance_true": 71,
+        "lhs": 72,
+        "op": "==",
+        "outcome": false,
+        "rhs": 143
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1952,
+    "fitness": 0.0,
+    "fixture": "triple_gate",
+    "inputs": [
+      8,
+      12,
+      11
+    ],
+    "optimizer_seed": 13032,
+    "output": 2,
+    "target": "triple_gate:d2:T",
+    "target_index": 32,
+    "trace": [
+      {
+        "decision": "triple_gate:d1",
+        "distance_false": 15,
+        "distance_true": 0,
+        "lhs": 20,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 6
+      },
+      {
+        "decision": "triple_gate:d2",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 3,
+        "op": "==",
+        "outcome": true,
+        "rhs": 3
+      },
+      {
+        "decision": "triple_gate:d3",
+        "distance_false": 0,
+        "distance_true": 2,
+        "lhs": 12,
+        "op": "<",
+        "outcome": false,
+        "rhs": 11
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1,
+    "fitness": 0.9375,
+    "fixture": "threshold_gate",
+    "inputs": [
+      -7,
+      -16
+    ],
+    "optimizer_seed": 13000,
+    "output": 0,
+    "target": "threshold_gate:d1:T",
+    "target_index": 0,
+    "trace": [
+      {
+        "decision": "threshold_gate:d1",
+        "distance_false": 0,
+        "distance_true": 15,
+        "lhs": -7,
+        "op": ">",
+        "outcome": false,
+        "rhs": 7
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 2,
+    "fitness": 0.0,
+    "fixture": "threshold_gate",
+    "inputs": [
+      18,
+      1
+    ],
+    "optimizer_seed": 13000,
+    "output": 1,
+    "target": "threshold_gate:d1:T",
+    "target_index": 0,
+    "trace": [
+      {
+        "decision": "threshold_gate:d1",
+        "distance_false": 11,
+        "distance_true": 0,
+        "lhs": 18,
+        "op": ">",
+        "outcome": true,
+        "rhs": 7
+      },
+      {
+        "decision": "threshold_gate:d2",
+        "distance_false": 0,
+        "distance_true": 4,
+        "lhs": 1,
+        "op": "<=",
+        "outcome": false,
+        "rhs": -3
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 8,
+    "fitness": 0.0,
+    "fixture": "threshold_gate",
+    "inputs": [
+      19,
+      -10
+    ],
+    "optimizer_seed": 13000,
+    "output": 3,
+    "target": "threshold_gate:d1:T",
+    "target_index": 0,
+    "trace": [
+      {
+        "decision": "threshold_gate:d1",
+        "distance_false": 12,
+        "distance_true": 0,
+        "lhs": 19,
+        "op": ">",
+        "outcome": true,
+        "rhs": 7
+      },
+      {
+        "decision": "threshold_gate:d2",
+        "distance_false": 8,
+        "distance_true": 0,
+        "lhs": -10,
+        "op": "<=",
+        "outcome": true,
+        "rhs": -3
+      },
+      {
+        "decision": "threshold_gate:d3",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 9,
+        "op": "==",
+        "outcome": true,
+        "rhs": 9
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 362,
+    "fitness": 0.9545454545454546,
+    "fixture": "sign_balance",
+    "inputs": [
+      20,
+      -13
+    ],
+    "optimizer_seed": 13006,
+    "output": 0,
+    "target": "sign_balance:d1:T",
+    "target_index": 6,
+    "trace": [
+      {
+        "decision": "sign_balance:d1",
+        "distance_false": 0,
+        "distance_true": 21,
+        "lhs": 20,
+        "op": "<",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 370,
+    "fitness": 0.0,
+    "fixture": "sign_balance",
+    "inputs": [
+      -9,
+      -2
+    ],
+    "optimizer_seed": 13006,
+    "output": 1,
+    "target": "sign_balance:d1:T",
+    "target_index": 6,
+    "trace": [
+      {
+        "decision": "sign_balance:d1",
+        "distance_false": 9,
+        "distance_true": 0,
+        "lhs": -9,
+        "op": "<",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "sign_balance:d2",
+        "distance_false": 0,
+        "distance_true": 2,
+        "lhs": -2,
+        "op": ">=",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 401,
+    "fitness": 0.0,
+    "fixture": "sign_balance",
+    "inputs": [
+      -11,
+      11
+    ],
+    "optimizer_seed": 13006,
+    "output": 3,
+    "target": "sign_balance:d1:T",
+    "target_index": 6,
+    "trace": [
+      {
+        "decision": "sign_balance:d1",
+        "distance_false": 11,
+        "distance_true": 0,
+        "lhs": -11,
+        "op": "<",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "sign_balance:d2",
+        "distance_false": 12,
+        "distance_true": 0,
+        "lhs": 11,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "sign_balance:d3",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 0,
+        "op": "==",
+        "outcome": true,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 721,
+    "fitness": 0.5,
+    "fixture": "modulo_guard",
+    "inputs": [
+      -4,
+      14
+    ],
+    "optimizer_seed": 13012,
+    "output": 0,
+    "target": "modulo_guard:d1:T",
+    "target_index": 12,
+    "trace": [
+      {
+        "decision": "modulo_guard:d1",
+        "distance_false": 0,
+        "distance_true": 1,
+        "lhs": 1,
+        "op": "==",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 733,
+    "fitness": 0.0,
+    "fixture": "modulo_guard",
+    "inputs": [
+      -15,
+      8
+    ],
+    "optimizer_seed": 13012,
+    "output": 3,
+    "target": "modulo_guard:d1:T",
+    "target_index": 12,
+    "trace": [
+      {
+        "decision": "modulo_guard:d1",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 0,
+        "op": "==",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "modulo_guard:d2",
+        "distance_false": 2,
+        "distance_true": 0,
+        "lhs": 2,
+        "op": "!=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "modulo_guard:d3",
+        "distance_false": 22,
+        "distance_true": 0,
+        "lhs": -23,
+        "op": "<=",
+        "outcome": true,
+        "rhs": -2
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 737,
+    "fitness": 0.0,
+    "fixture": "modulo_guard",
+    "inputs": [
+      -20,
+      -3
+    ],
+    "optimizer_seed": 13012,
+    "output": 1,
+    "target": "modulo_guard:d1:T",
+    "target_index": 12,
+    "trace": [
+      {
+        "decision": "modulo_guard:d1",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 0,
+        "op": "==",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "modulo_guard:d2",
+        "distance_false": 0,
+        "distance_true": 1,
+        "lhs": 0,
+        "op": "!=",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1081,
+    "fitness": 0.9090909090909091,
+    "fixture": "distance_gate",
+    "inputs": [
+      -14,
+      -13
+    ],
+    "optimizer_seed": 13018,
+    "output": 0,
+    "target": "distance_gate:d1:T",
+    "target_index": 18,
+    "trace": [
+      {
+        "decision": "distance_gate:d1",
+        "distance_false": 0,
+        "distance_true": 10,
+        "lhs": 1,
+        "op": ">",
+        "outcome": false,
+        "rhs": 10
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1084,
+    "fitness": 0.0,
+    "fixture": "distance_gate",
+    "inputs": [
+      19,
+      1
+    ],
+    "optimizer_seed": 13018,
+    "output": 1,
+    "target": "distance_gate:d1:T",
+    "target_index": 18,
+    "trace": [
+      {
+        "decision": "distance_gate:d1",
+        "distance_false": 8,
+        "distance_true": 0,
+        "lhs": 18,
+        "op": ">",
+        "outcome": true,
+        "rhs": 10
+      },
+      {
+        "decision": "distance_gate:d2",
+        "distance_false": 0,
+        "distance_true": 21,
+        "lhs": 20,
+        "op": "<",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1144,
+    "fitness": 0.75,
+    "fixture": "distance_gate",
+    "inputs": [
+      -11,
+      2
+    ],
+    "optimizer_seed": 13019,
+    "output": 2,
+    "target": "distance_gate:d1:F",
+    "target_index": 19,
+    "trace": [
+      {
+        "decision": "distance_gate:d1",
+        "distance_false": 3,
+        "distance_true": 0,
+        "lhs": 13,
+        "op": ">",
+        "outcome": true,
+        "rhs": 10
+      },
+      {
+        "decision": "distance_gate:d2",
+        "distance_false": 9,
+        "distance_true": 0,
+        "lhs": -9,
+        "op": "<",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "distance_gate:d3",
+        "distance_false": 0,
+        "distance_true": 17,
+        "lhs": -13,
+        "op": ">=",
+        "outcome": false,
+        "rhs": 4
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1441,
+    "fitness": 0.0,
+    "fixture": "product_guard",
+    "inputs": [
+      17,
+      -10
+    ],
+    "optimizer_seed": 13024,
+    "output": 1,
+    "target": "product_guard:d1:T",
+    "target_index": 24,
+    "trace": [
+      {
+        "decision": "product_guard:d1",
+        "distance_false": 18,
+        "distance_true": 0,
+        "lhs": 17,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "product_guard:d2",
+        "distance_false": 0,
+        "distance_true": 11,
+        "lhs": -10,
+        "op": ">",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1443,
+    "fitness": 0.8888888888888888,
+    "fixture": "product_guard",
+    "inputs": [
+      -8,
+      -17
+    ],
+    "optimizer_seed": 13024,
+    "output": 0,
+    "target": "product_guard:d1:T",
+    "target_index": 24,
+    "trace": [
+      {
+        "decision": "product_guard:d1",
+        "distance_false": 0,
+        "distance_true": 8,
+        "lhs": -8,
+        "op": ">=",
+        "outcome": false,
+        "rhs": 0
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1613,
+    "fitness": 0.0,
+    "fixture": "product_guard",
+    "inputs": [
+      11,
+      13
+    ],
+    "optimizer_seed": 13026,
+    "output": 3,
+    "target": "product_guard:d2:T",
+    "target_index": 26,
+    "trace": [
+      {
+        "decision": "product_guard:d1",
+        "distance_false": 12,
+        "distance_true": 0,
+        "lhs": 11,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "product_guard:d2",
+        "distance_false": 13,
+        "distance_true": 0,
+        "lhs": 13,
+        "op": ">",
+        "outcome": true,
+        "rhs": 0
+      },
+      {
+        "decision": "product_guard:d3",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 143,
+        "op": "==",
+        "outcome": true,
+        "rhs": 143
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1801,
+    "fitness": 0.0,
+    "fixture": "triple_gate",
+    "inputs": [
+      20,
+      -8,
+      -8
+    ],
+    "optimizer_seed": 13030,
+    "output": 1,
+    "target": "triple_gate:d1:T",
+    "target_index": 30,
+    "trace": [
+      {
+        "decision": "triple_gate:d1",
+        "distance_false": 7,
+        "distance_true": 0,
+        "lhs": 12,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 6
+      },
+      {
+        "decision": "triple_gate:d2",
+        "distance_false": 0,
+        "distance_true": 31,
+        "lhs": -28,
+        "op": "==",
+        "outcome": false,
+        "rhs": 3
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1803,
+    "fitness": 0.9523809523809523,
+    "fixture": "triple_gate",
+    "inputs": [
+      -19,
+      5,
+      -16
+    ],
+    "optimizer_seed": 13030,
+    "output": 0,
+    "target": "triple_gate:d1:T",
+    "target_index": 30,
+    "trace": [
+      {
+        "decision": "triple_gate:d1",
+        "distance_false": 0,
+        "distance_true": 20,
+        "lhs": -14,
+        "op": ">=",
+        "outcome": false,
+        "rhs": 6
+      }
+    ]
+  },
+  {
+    "duplicate": false,
+    "evaluation": 1964,
+    "fitness": 0.0,
+    "fixture": "triple_gate",
+    "inputs": [
+      6,
+      5,
+      9
+    ],
+    "optimizer_seed": 13032,
+    "output": 3,
+    "target": "triple_gate:d2:T",
+    "target_index": 32,
+    "trace": [
+      {
+        "decision": "triple_gate:d1",
+        "distance_false": 6,
+        "distance_true": 0,
+        "lhs": 11,
+        "op": ">=",
+        "outcome": true,
+        "rhs": 6
+      },
+      {
+        "decision": "triple_gate:d2",
+        "distance_false": 1,
+        "distance_true": 0,
+        "lhs": 3,
+        "op": "==",
+        "outcome": true,
+        "rhs": 3
+      },
+      {
+        "decision": "triple_gate:d3",
+        "distance_false": 4,
+        "distance_true": 0,
+        "lhs": 5,
+        "op": "<",
+        "outcome": true,
+        "rhs": 9
+      }
+    ]
+  }
+]

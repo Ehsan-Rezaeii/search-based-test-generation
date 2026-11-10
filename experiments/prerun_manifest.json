@@ -1,0 +1,183 @@
+{
+  "configurations": {
+    "ga": {
+      "bounds": [
+        -20.5,
+        20.5
+      ],
+      "class": "metaheuristics_lab.optimizers.GA",
+      "decoder": "clamp(floor(v+0.5),-20,20)",
+      "domain": "continuous",
+      "settings": {
+        "crossover_rate": 0.9,
+        "mutation_rate": null,
+        "mutation_scale": 0.1,
+        "population_size": 12,
+        "tournament_size": 3
+      }
+    },
+    "random": {
+      "bounds": [
+        -20.5,
+        20.5
+      ],
+      "class": "metaheuristics_lab.optimizers.RandomSearch",
+      "decoder": "clamp(floor(v+0.5),-20,20)",
+      "domain": "continuous",
+      "settings": {
+        "domain": "continuous",
+        "population_size": 12
+      }
+    }
+  },
+  "created_utc": "2026-11-10T21:56:38.451039+00:00",
+  "dependency": {
+    "direct_url": {
+      "url": "https://github.com/Ehsan-Rezaeii/metaheuristics-lab.git",
+      "vcs_info": {
+        "commit_id": "6b4ef0fa3d72f608146f3dd7eabb84bf39fa896e",
+        "requested_revision": "6b4ef0fa3d72f608146f3dd7eabb84bf39fa896e",
+        "vcs": "git"
+      }
+    },
+    "source_hashes": {
+      "metaheuristics_lab/__init__.py": "7a9a6e79db5e95c0d06af817b366da8de18177e59c8503eb3747fea02bbd84b4",
+      "metaheuristics_lab/benchmarks.py": "3eb28a3866e192d20a7b97c3c821dccaa13ab1bff6b2fbe49390b7f7a4c8fb72",
+      "metaheuristics_lab/core.py": "033489ead4af119dc5b8cb3d56a19b05d8096f328505ccb08c1c0654080b6311",
+      "metaheuristics_lab/optimizers.py": "50f5b20b8eba72d1a2c5798a60b2be9724a8f563eaec3d91a1966258231cbe68",
+      "metaheuristics_lab/transfers.py": "222fb5ccfe4ed2e8593413f790d95459a826229ccea642c6446a711a110fc179"
+    },
+    "version": "0.1.0"
+  },
+  "packages": {
+    "Pygments": "2.21.0",
+    "build": "1.6.1",
+    "contourpy": "1.4.0",
+    "coverage": "7.17.2",
+    "cycler": "0.12.1",
+    "fonttools": "4.68.0",
+    "iniconfig": "2.3.1",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.11.2",
+    "metaheuristics-lab": "0.1.0",
+    "numpy": "2.5.4",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pip": "25.0.1",
+    "pluggy": "1.7.0",
+    "pyparsing": "3.3.3",
+    "pyproject_hooks": "1.3.3",
+    "pytest": "9.2.0",
+    "pytest-cov": "7.1.0",
+    "python-dateutil": "4.0.0",
+    "ruff": "0.17.4",
+    "search-based-test-generation": "0.1.0",
+    "tzdata": "2026.6"
+  },
+  "parent_commit": "4a619faecc81f2d516d569f2438bf63b50c40b00",
+  "phase": "preregistered",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "settings": {
+    "ablation": "none; no causal claim about individual guidance mechanisms",
+    "base_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "duplicate_scope": "(fixture, integer tuple) within one method/base-seed run",
+    "early_stop": false,
+    "evaluations_per_target": 60,
+    "methods": [
+      "ga",
+      "random"
+    ],
+    "normalized_auc": "sum(covered_count_at_evaluation_t, t=1..2160)/(36*2160)",
+    "optimizer_seed": "base_seed * 1000 + target_index",
+    "planned_search_calls": 86400,
+    "population_size": 12,
+    "target_order": "fixture table order; d1,d2,d3; T then F"
+  },
+  "source_sha256": {
+    ".github/workflows/ci.yml": "83a580f496eab009816a0998a43a5e910ee6f83409339ae661f2b87e5dab060e",
+    "docs/EXPERIMENT_PROTOCOL.md": "2113f8d8dfb9867179041890e5acb4f5469b41d0e978ffb18fff43514b0c9250",
+    "docs/PROJECT_SPEC.md": "d4d67db89771335866a8f3eec7aca24f91ac6f3240836a6d8984aead8ef42a41",
+    "experiments/audit_results.py": "3c0f2282f8a54158bbb3758c79612491e94333aab27c83c6f1b7dcb0bc71ff1a",
+    "experiments/plot_results.py": "902ae80512a20947b1ad61d23ac2e9c31d9ce8c4a13c71df087c8a2ed41a669e",
+    "experiments/run_study.py": "235b0a91bdf1498dfe7fda000644e1f71654ba9b349827377a7ad36fd86367a5",
+    "experiments/settings.json": "567fac3f45a10fce64ea766d0cf9e01d4c3c99693b3bad0d40d5872ae167d836",
+    "experiments/smoke_test.py": "0bc33e5a8e7b08f56a8eb7fb1087b210d57b3db3077848baaf393cac8c570847",
+    "pyproject.toml": "6d1de2322d5096b57840c4d7ea85e3904fed240f9e0c86843869cd8f9ba096d2",
+    "src/search_based_test_generation/__init__.py": "5384bf76d031d20efdd5ce7e2eb42fe76f5f7f0c8604083faef77c79470dbaa4",
+    "src/search_based_test_generation/adapters.py": "56d5620a499e08beb7500213e7fb3b80134eec0ada132f36a727005f85ae8b5e",
+    "src/search_based_test_generation/cli.py": "1412d85421851d516fbb4873c5fbe84a2d0ca6efccdd88bd1643a7b3cf870c2d",
+    "src/search_based_test_generation/distance.py": "1f4ac4fbe637fd3f6c1a6b49e9292dd9e14b87d9781195f20ea32ef647aaa289",
+    "src/search_based_test_generation/evidence.py": "719a97233877e7072a949d94ed467d4efe924e7571c69daa4f482a5c44587fff",
+    "src/search_based_test_generation/fixtures.py": "99d106ad68bdabe18e0bb063f68a2510be03054f6185e145cc1c445cefeeaf4a",
+    "src/search_based_test_generation/probe.py": "3e6507a14eef50be3ff7b78c28a7dda08cfcfe02ab02d802cfdeb6b9a8340dc6",
+    "src/search_based_test_generation/runner.py": "7aef924cd0764da5aea848cc63c711467a6a7244f99914956b0de5caed440c20",
+    "src/search_based_test_generation/suites.py": "1198910bad93c03b923a1a43639d3c24693bd89954b1d434e528c87626a68ff4",
+    "tests/test_adapters.py": "44b80875a23d7216d2f41a91199147da88a1080621ab3256d7e741de11950a20",
+    "tests/test_artifacts.py": "84b87f7b23e31d0a1c68fb2b89eb153b2fc87b6087ab9290c422cc5ed2b61830",
+    "tests/test_distance.py": "7a4847ff445a238e58153055ef56b68faa58840c817347fc9e1708614b636167",
+    "tests/test_evidence.py": "771947d62b561629dbdc232e934add651486eb6aea15c49e67c8b2b96f7e3c16",
+    "tests/test_fixtures.py": "f3a4e3fe06d804c7cab8fccf424f8ba0332386014ff041e8d08518be427a3a32",
+    "tests/test_runner.py": "47db9f4575f2d33dd35e5d3f424f8bd0bca92048609db0b486b6c109ad2cee93",
+    "tests/test_suites.py": "0751a2e43fd69efbb33a80e6e89eb4165615690d3e57c76244abe73edcbb2230"
+  },
+  "targets": [
+    "threshold_gate:d1:T",
+    "threshold_gate:d1:F",
+    "threshold_gate:d2:T",
+    "threshold_gate:d2:F",
+    "threshold_gate:d3:T",
+    "threshold_gate:d3:F",
+    "sign_balance:d1:T",
+    "sign_balance:d1:F",
+    "sign_balance:d2:T",
+    "sign_balance:d2:F",
+    "sign_balance:d3:T",
+    "sign_balance:d3:F",
+    "modulo_guard:d1:T",
+    "modulo_guard:d1:F",
+    "modulo_guard:d2:T",
+    "modulo_guard:d2:F",
+    "modulo_guard:d3:T",
+    "modulo_guard:d3:F",
+    "distance_gate:d1:T",
+    "distance_gate:d1:F",
+    "distance_gate:d2:T",
+    "distance_gate:d2:F",
+    "distance_gate:d3:T",
+    "distance_gate:d3:F",
+    "product_guard:d1:T",
+    "product_guard:d1:F",
+    "product_guard:d2:T",
+    "product_guard:d2:F",
+    "product_guard:d3:T",
+    "product_guard:d3:F",
+    "triple_gate:d1:T",
+    "triple_gate:d1:F",
+    "triple_gate:d2:T",
+    "triple_gate:d2:F",
+    "triple_gate:d3:T",
+    "triple_gate:d3:F"
+  ]
+}

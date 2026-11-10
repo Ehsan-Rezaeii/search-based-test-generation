@@ -1,0 +1,187 @@
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=68
+* Getting build dependencies for sdist...
+running egg_info
+writing src/search_based_test_generation.egg-info/PKG-INFO
+writing dependency_links to src/search_based_test_generation.egg-info/dependency_links.txt
+writing entry points to src/search_based_test_generation.egg-info/entry_points.txt
+writing requirements to src/search_based_test_generation.egg-info/requires.txt
+writing top-level names to src/search_based_test_generation.egg-info/top_level.txt
+reading manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+WARNING `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+* Installed build dependency versions:
+  - setuptools==84.2.1
+* Building sdist...
+running sdist
+running egg_info
+writing src/search_based_test_generation.egg-info/PKG-INFO
+writing dependency_links to src/search_based_test_generation.egg-info/dependency_links.txt
+writing entry points to src/search_based_test_generation.egg-info/entry_points.txt
+writing requirements to src/search_based_test_generation.egg-info/requires.txt
+writing top-level names to src/search_based_test_generation.egg-info/top_level.txt
+reading manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+running check
+creating search_based_test_generation-0.1.0
+creating search_based_test_generation-0.1.0/src/search_based_test_generation
+creating search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+creating search_based_test_generation-0.1.0/tests
+copying files to search_based_test_generation-0.1.0...
+copying LICENSE -> search_based_test_generation-0.1.0
+copying README.md -> search_based_test_generation-0.1.0
+copying pyproject.toml -> search_based_test_generation-0.1.0
+copying src/search_based_test_generation/__init__.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/adapters.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/cli.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/distance.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/evidence.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/fixtures.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/probe.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/runner.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation/suites.py -> search_based_test_generation-0.1.0/src/search_based_test_generation
+copying src/search_based_test_generation.egg-info/PKG-INFO -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying src/search_based_test_generation.egg-info/SOURCES.txt -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying src/search_based_test_generation.egg-info/dependency_links.txt -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying src/search_based_test_generation.egg-info/entry_points.txt -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying src/search_based_test_generation.egg-info/requires.txt -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying src/search_based_test_generation.egg-info/top_level.txt -> search_based_test_generation-0.1.0/src/search_based_test_generation.egg-info
+copying tests/test_adapters.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_artifacts.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_distance.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_evidence.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_fixtures.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_runner.py -> search_based_test_generation-0.1.0/tests
+copying tests/test_suites.py -> search_based_test_generation-0.1.0/tests
+Writing search_based_test_generation-0.1.0/setup.cfg
+Creating tar archive
+removing 'search_based_test_generation-0.1.0' (and everything under it)
+WARNING `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+* Building wheel from sdist
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - setuptools>=68
+* Getting build dependencies for wheel...
+running egg_info
+writing src/search_based_test_generation.egg-info/PKG-INFO
+writing dependency_links to src/search_based_test_generation.egg-info/dependency_links.txt
+writing entry points to src/search_based_test_generation.egg-info/entry_points.txt
+writing requirements to src/search_based_test_generation.egg-info/requires.txt
+writing top-level names to src/search_based_test_generation.egg-info/top_level.txt
+reading manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+WARNING `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+* Installed build dependency versions:
+  - setuptools==84.2.1
+* Building wheel...
+running bdist_wheel
+running build
+running build_py
+creating build/lib/search_based_test_generation
+copying src/search_based_test_generation/runner.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/probe.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/adapters.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/suites.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/__init__.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/distance.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/evidence.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/fixtures.py -> build/lib/search_based_test_generation
+copying src/search_based_test_generation/cli.py -> build/lib/search_based_test_generation
+running egg_info
+writing src/search_based_test_generation.egg-info/PKG-INFO
+writing dependency_links to src/search_based_test_generation.egg-info/dependency_links.txt
+writing entry points to src/search_based_test_generation.egg-info/entry_points.txt
+writing requirements to src/search_based_test_generation.egg-info/requires.txt
+writing top-level names to src/search_based_test_generation.egg-info/top_level.txt
+reading manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'src/search_based_test_generation.egg-info/SOURCES.txt'
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/search_based_test_generation
+copying build/lib/search_based_test_generation/runner.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/probe.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/adapters.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/suites.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/__init__.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/distance.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/evidence.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/fixtures.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+copying build/lib/search_based_test_generation/cli.py -> build/bdist.linux-x86_64/wheel/./search_based_test_generation
+running install_egg_info
+Copying src/search_based_test_generation.egg-info to build/bdist.linux-x86_64/wheel/./search_based_test_generation-0.1.0-py3.12.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/search_based_test_generation-0.1.0.dist-info/WHEEL
+creating '/workspace/search-based-test-generation/dist/.tmp-hrguug6e/search_based_test_generation-0.1.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'search_based_test_generation/__init__.py'
+adding 'search_based_test_generation/adapters.py'
+adding 'search_based_test_generation/cli.py'
+adding 'search_based_test_generation/distance.py'
+adding 'search_based_test_generation/evidence.py'
+adding 'search_based_test_generation/fixtures.py'
+adding 'search_based_test_generation/probe.py'
+adding 'search_based_test_generation/runner.py'
+adding 'search_based_test_generation/suites.py'
+adding 'search_based_test_generation-0.1.0.dist-info/licenses/LICENSE'
+adding 'search_based_test_generation-0.1.0.dist-info/METADATA'
+adding 'search_based_test_generation-0.1.0.dist-info/WHEEL'
+adding 'search_based_test_generation-0.1.0.dist-info/entry_points.txt'
+adding 'search_based_test_generation-0.1.0.dist-info/top_level.txt'
+adding 'search_based_test_generation-0.1.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+WARNING `project.license` as a TOML table is deprecated
+!!
+
+        ********************************************************************************
+        Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+        By 2027-Feb-18, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+Successfully built search_based_test_generation-0.1.0.tar.gz and search_based_test_generation-0.1.0-py3-none-any.whl
