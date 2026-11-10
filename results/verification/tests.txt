@@ -1,0 +1,38 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.2.0, pluggy-1.7.0
+rootdir: /workspace/search-based-test-generation
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0
+collected 370 items
+
+tests/test_adapters.py ..................                                [  4%]
+tests/test_artifacts.py .........                                        [  7%]
+tests/test_distance.py ................................................. [ 20%]
+........................................................................ [ 40%]
+........................................................................ [ 59%]
+........................................................................ [ 78%]
+..................................                                       [ 88%]
+tests/test_evidence.py .......                                           [ 90%]
+tests/test_fixtures.py ...............................                   [ 98%]
+tests/test_runner.py ....                                                [ 99%]
+tests/test_suites.py ..                                                  [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.12.14-final-0 _______________
+
+Name                                           Stmts   Miss  Cover   Missing
+----------------------------------------------------------------------------
+src/search_based_test_generation/__init__.py       1      0   100%
+src/search_based_test_generation/adapters.py      18      0   100%
+src/search_based_test_generation/cli.py           27      1    96%   35
+src/search_based_test_generation/distance.py      21      1    95%   25
+src/search_based_test_generation/evidence.py     189     23    88%   35, 95, 110, 112, 136, 191, 209, 212, 215, 218, 226, 230, 239, 243, 247, 252, 254, 262, 265, 274, 282, 296, 302
+src/search_based_test_generation/fixtures.py      66      0   100%
+src/search_based_test_generation/probe.py         36      0   100%
+src/search_based_test_generation/runner.py        50      2    96%   71, 96
+src/search_based_test_generation/suites.py        20      0   100%
+----------------------------------------------------------------------------
+TOTAL                                            428     27    94%
+Coverage XML written to file coverage.xml
+============================= 370 passed in 20.15s =============================

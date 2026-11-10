@@ -1,0 +1,43 @@
+{
+  "dependency_commit": "6b4ef0fa3d72f608146f3dd7eabb84bf39fa896e",
+  "manifest_sha256": "73a5ea883ad880f20e35884041cada99d79f3b58ab448c3e2ff9e0137cd27ad2",
+  "protocol_commit": "46d2b6e74fde166406e0154600ed69b453041e29",
+  "settings": {
+    "ablation": "none; no causal claim about individual guidance mechanisms",
+    "base_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "duplicate_scope": "(fixture, integer tuple) within one method/base-seed run",
+    "early_stop": false,
+    "evaluations_per_target": 60,
+    "methods": [
+      "ga",
+      "random"
+    ],
+    "normalized_auc": "sum(covered_count_at_evaluation_t, t=1..2160)/(36*2160)",
+    "optimizer_seed": "base_seed * 1000 + target_index",
+    "planned_search_calls": 86400,
+    "population_size": 12,
+    "target_order": "fixture table order; d1,d2,d3; T then F"
+  },
+  "started_utc": "2026-11-10T21:56:38.771996+00:00"
+}

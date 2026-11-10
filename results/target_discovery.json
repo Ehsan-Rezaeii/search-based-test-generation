@@ -1,0 +1,366 @@
+{
+  "ga": {
+    "threshold_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 871
+    },
+    "threshold_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1099
+    },
+    "threshold_gate:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 19,
+      "targeted_allocation_hits": 635
+    },
+    "threshold_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 608
+    },
+    "threshold_gate:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 14,
+      "targeted_allocation_hits": 44
+    },
+    "threshold_gate:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 18,
+      "targeted_allocation_hits": 627
+    },
+    "sign_balance:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1033
+    },
+    "sign_balance:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1047
+    },
+    "sign_balance:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 851
+    },
+    "sign_balance:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 832
+    },
+    "sign_balance:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 19,
+      "targeted_allocation_hits": 82
+    },
+    "sign_balance:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 825
+    },
+    "modulo_guard:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 356
+    },
+    "modulo_guard:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 990
+    },
+    "modulo_guard:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 294
+    },
+    "modulo_guard:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 146
+    },
+    "modulo_guard:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 179
+    },
+    "modulo_guard:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 19,
+      "targeted_allocation_hits": 192
+    },
+    "distance_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 846
+    },
+    "distance_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 937
+    },
+    "distance_gate:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 662
+    },
+    "distance_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 671
+    },
+    "distance_gate:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 16,
+      "targeted_allocation_hits": 452
+    },
+    "distance_gate:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 19,
+      "targeted_allocation_hits": 556
+    },
+    "product_guard:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1039
+    },
+    "product_guard:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1042
+    },
+    "product_guard:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 750
+    },
+    "product_guard:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 850
+    },
+    "product_guard:d3:T": {
+      "runs_observed": 10,
+      "targeted_allocation_successes": 5,
+      "targeted_allocation_hits": 13
+    },
+    "product_guard:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 803
+    },
+    "triple_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 895
+    },
+    "triple_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 1071
+    },
+    "triple_gate:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 19,
+      "targeted_allocation_hits": 72
+    },
+    "triple_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 941
+    },
+    "triple_gate:d3:T": {
+      "runs_observed": 19,
+      "targeted_allocation_successes": 9,
+      "targeted_allocation_hits": 41
+    },
+    "triple_gate:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 11,
+      "targeted_allocation_hits": 42
+    }
+  },
+  "random": {
+    "threshold_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 368
+    },
+    "threshold_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 820
+    },
+    "threshold_gate:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 151
+    },
+    "threshold_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 173
+    },
+    "threshold_gate:d3:T": {
+      "runs_observed": 19,
+      "targeted_allocation_successes": 4,
+      "targeted_allocation_hits": 6
+    },
+    "threshold_gate:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 176
+    },
+    "sign_balance:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 610
+    },
+    "sign_balance:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 613
+    },
+    "sign_balance:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 285
+    },
+    "sign_balance:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 284
+    },
+    "sign_balance:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 12,
+      "targeted_allocation_hits": 23
+    },
+    "sign_balance:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 295
+    },
+    "modulo_guard:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 252
+    },
+    "modulo_guard:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 909
+    },
+    "modulo_guard:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 181
+    },
+    "modulo_guard:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 18,
+      "targeted_allocation_hits": 79
+    },
+    "modulo_guard:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 74
+    },
+    "modulo_guard:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 94
+    },
+    "distance_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 651
+    },
+    "distance_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 525
+    },
+    "distance_gate:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 312
+    },
+    "distance_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 354
+    },
+    "distance_gate:d3:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 152
+    },
+    "distance_gate:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 187
+    },
+    "product_guard:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 606
+    },
+    "product_guard:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 611
+    },
+    "product_guard:d2:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 294
+    },
+    "product_guard:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 315
+    },
+    "product_guard:d3:T": {
+      "runs_observed": 4,
+      "targeted_allocation_successes": 0,
+      "targeted_allocation_hits": 0
+    },
+    "product_guard:d3:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 281
+    },
+    "triple_gate:d1:T": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 462
+    },
+    "triple_gate:d1:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 784
+    },
+    "triple_gate:d2:T": {
+      "runs_observed": 18,
+      "targeted_allocation_successes": 5,
+      "targeted_allocation_hits": 6
+    },
+    "triple_gate:d2:F": {
+      "runs_observed": 20,
+      "targeted_allocation_successes": 20,
+      "targeted_allocation_hits": 445
+    },
+    "triple_gate:d3:T": {
+      "runs_observed": 12,
+      "targeted_allocation_successes": 4,
+      "targeted_allocation_hits": 5
+    },
+    "triple_gate:d3:F": {
+      "runs_observed": 17,
+      "targeted_allocation_successes": 5,
+      "targeted_allocation_hits": 6
+    }
+  }
+}
