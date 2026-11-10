@@ -90,3 +90,5 @@ Local Python 3.10/3.13 execution is not claimed; those versions are checked by G
 The CI matrix runs Ruff, all tests/artifact audit, tiny smoke, builds and a fresh external
 wheel install/import. CI evidence and URLs are recorded in `results/verification/ci.json`
 after observing the completed checks.
+
+Observed GitHub Actions run [42910547346](https://github.com/Ehsan-Rezaeii/search-based-test-generation/actions/runs/42910547346) completed successfully for Python 3.10, 3.12 and 3.13 at commit `ae6e121350bde07dc468c3314415b968da0288db`. Every matrix job passed installation, lint/format, tests/artifact audit, tiny smoke, build, clean wheel install/import and artifact upload. The exact job IDs and step conclusions are saved in `results/verification/ci.json`.

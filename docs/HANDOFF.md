@@ -52,3 +52,5 @@ To independently review, begin with the fixture table and handwritten tests, the
 one compressed run's trace and recompute the coverage union with the audit command.
 To reproduce optimization use a fresh output directory and the committed frozen sources.
 Runtime and wall-clock timestamps may differ; seeded candidate archives should match.
+
+Review PR: https://github.com/Ehsan-Rezaeii/search-based-test-generation/pull/1 (open and unmerged). The full Python 3.10/3.12/3.13 CI matrix passed in run 42910547346; its observed commit and job/step evidence are retained in results/verification/ci.json. Total measured search wall time summed across runs was 3.072235 seconds for GA and 2.276845 seconds for Random Search. Runtime excludes suite selection, exports and replay.
